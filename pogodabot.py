@@ -20,7 +20,7 @@ def send_echo(message):
     elif temp < 20:
         answer += "It's warm enough now."
     else:
-        answer += "The temperature is normal. Dress as you like"
+        answer += "The temperature is normal. Dress as you like."
 
     bot.send_message(message.chat.id, answer)
 
